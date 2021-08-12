@@ -1,3 +1,6 @@
+
+//Bubblesort
+
 package funzione;
 
 import java.util.Arrays;
@@ -21,7 +24,7 @@ public static void main(String []args){
 					array[y+1]= array[x]; 	//Scambio di posizione x -> y.
 					array[x] = tmp;  		//x(4) posizione 0 passerà in posizione 1 scambiando di posto con y(1).
 											//Il ciclo si ripeterà finche troverà un numero maggiore del precedente.
-					}						//Il BubbleSort porta da sinistra a destra il numero più grande.
+					}						//Il BubbleSort porta da sinistra a destra il numero più grande.					
 				System.out.println(Arrays.toString(array));
 			}
 			
