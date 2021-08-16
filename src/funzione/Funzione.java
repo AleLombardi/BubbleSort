@@ -22,7 +22,7 @@ public static void main(String []args){
 					array[x] = tmp;  		
 											
 					}						
-				System.out.println(Arrays.toString(array));
+				System.out.println(Arrays.toString(array));//stampa l'array
 			}
 			
 			
